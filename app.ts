@@ -18,7 +18,7 @@ app.use(express.json());
 //   }
 
 app.use((req: Request, res: Response, next: NextFunction) => {
-    res.setHeader("Access-Control-Allow-Origin", process.env.CLIENT_URL!);
+    res.setHeader("Access-Control-Allow-Origin", '*');
     res.setHeader("Access-Control-Allow-Methods", "POST, GET, OPTIONS");
     res.setHeader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Authorization");
     if(req.method == "OPTIONS"){
