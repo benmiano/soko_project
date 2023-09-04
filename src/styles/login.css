@@ -1,0 +1,53 @@
+.loginComponent {
+    margin-top: 3.3%;
+    padding-top:5%;
+    padding-bottom: 20%;
+    background-color: whitesmoke;
+}
+
+.loginForm {
+    position: relative;
+}
+
+.loginFormDiv {
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(245, 245, 245, 0.185);
+    border-radius: 6px;
+    
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(3, 3, 48);
+    text-decoration-line: underline;
+}
+
+form {
+    /* margin: 20px 30px 10px 30px; */
+    display: inline-block;
+    width: 40%;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-size: large;
+    line-height: 20px;
+    color: rgb(13, 13, 160);
+    font-weight: 600;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    margin-top: 8px;
+    color: rgb(66, 34, 206);
+    border-width: 1px;
+    border-radius: 6px;
+    border-color: black;
+}

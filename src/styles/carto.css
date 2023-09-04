@@ -1,0 +1,103 @@
+/* img {
+  width: 200px;
+  height: 260px;
+  border-radius: 5%;
+  object-fit: contain;
+}
+
+p {
+  font-size: 11px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.h-title {
+  height: 12%;
+}
+
+.buttondiv {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+.addButton{
+  background-color: yellow;
+  color: black;
+  width: 80%;
+  height: 40px;
+  font-weight: bold;
+}
+.addButton:hover{
+  background-color: yellow;
+  width: 100%;
+  border-radius: 6px;
+  font-size: large;
+  font-weight: bolder;
+}
+/* button {
+  background-color: black;
+  color: white;
+  width: 100%;
+} */
+
+/* .items-container {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  row-gap: 5px;
+  border-top: 2px solid black;
+  margin-top: 50px;
+}
+
+.item-container {
+  border: 2px solid black;
+  border-radius: 1%;
+  width: 98%;
+} */ 
+
+.cartBody {
+    width: 90%;
+}
+
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin-bottom: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  img{
+    width: 200px;
+    height: 260px;
+    border-radius: 5%;
+    object-fit: contain;
+  }
+  .title {
+    height: 20%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+    border-radius: 10px;
+  }

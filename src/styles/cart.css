@@ -1,0 +1,133 @@
+/* * {
+    box-sizing: border-box;
+  }
+   
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #7EC855;
+    font-family: 'Roboto', sans-serif;
+  } */
+
+.cart {
+  margin-top: 60px;
+  margin-left: 2%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 98%;
+}
+
+/* .subtitle{
+  margin-bottom: 0px;
+} */
+
+.container {
+  height: 100%;
+}
+
+.quantityBlock {
+  display: inline;
+  margin: auto;
+  width: 10%;
+  align-items: center;
+}
+
+.quantifier {
+  padding: auto;
+  display: flex;
+  align-items: center;
+}
+
+.deleteButton {
+  align-items: center;
+}
+
+.remove {
+  margin: auto;
+}
+
+.itemPrice {
+  width: 10%;
+  padding-right: 100px;
+  align-items: center;
+  /* margin-left: 2%; */
+}
+
+/*apply css properties to button tag*/
+
+/* .quantifier .buttonQuantity {
+  width: 60%;
+  height: 40px;
+  font-size: 30px;
+  background-color: green;
+  color: honeydew;
+} */
+
+/*apply hover effect to button tag*/
+
+/* .buttonQuantity:hover {
+  background-color: blue;
+  color: grey;
+} */
+.quantifier p {
+  font-size: medium;
+  width: 50%;
+}
+
+.checkoutButton {
+  margin-top: 2px;
+  float: right;
+}
+
+.checkout {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    background-color: rgb(8, 8, 141);
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+.checkout:hover {
+  background-color: blue;
+  border-radius: 1%;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+}
+
+.cartImage {
+  width: 25%;
+  /* height: 260px; */
+  object-fit: contain;
+  margin: 2px;
+  border-right: 1px ridge;
+
+}
+
+.cartDetails {
+  margin-left: 15px;
+  width: 20%;
+  height: 100%;
+  border-right: 2px ridge  ;
+
+}
+
+.cartDetails p {
+  font-size: medium;
+  /* overflow-wrap: break-word; */
+}
+
+.summary {
+  width: 25%;
+  justify-content: center;
+}
