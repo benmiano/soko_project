@@ -4,7 +4,7 @@ import jwt from "jsonwebtoken";
 import { User } from "../models/users";
 import { jwtSecret } from "../server";
 
-export const registerUser = async (email: string, phoneNumber: number, password: string, temporaryHash: string) => {
+export const registerUser = async (email: string, phoneNumber: string, password: string, temporaryHash: string) => {
   let newUserCreated;
 
   // hash password for storage

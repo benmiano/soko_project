@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 
-mongoose.set('strictQuery', false);
+// mongoose.set('strictQuery', false);
 // configuration for database HWjQzz1lFhRujyqG
 const connectToDB = async (db_url: string) => {
   try {
